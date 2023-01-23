@@ -1,0 +1,23 @@
+.sidebar{
+    height:80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .nav{
+        &__box{
+            &-link{
+
+            }
+            &-icon{
+                width:2rem;
+                height:2rem;
+            }
+            &-text{
+                color:var(--Grey-light-1);
+            }
+        }
+    }
+    .legal{
+
+    }
+}
