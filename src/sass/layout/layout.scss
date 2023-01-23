@@ -12,6 +12,9 @@
     height: 7rem;
     background-color: white;
     border-bottom: var(--Grey-light-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content{
