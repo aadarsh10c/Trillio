@@ -4,20 +4,34 @@
     flex-direction: column;
     justify-content: space-between;
     .nav{
+       // background-color: red;
+        font-size: 1.5rem;
         &__box{
-            &-link{
+            &-link:link,
+            &-link:visited{
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                padding: 1.5rem 3rem;
+                color:var(--Grey-light-1);
 
             }
+          
             &-icon{
                 width:2rem;
                 height:2rem;
+                margin-right: 2rem;
+                fill: currentColor;
             }
-            &-text{
-                color:var(--Grey-light-1);
+            &::before{
+                content: "";
+                display: block;
+                height: 100%;
+                background-color: orangered;
             }
+            
         }
-    }
-    .legal{
 
     }
+    
 }
