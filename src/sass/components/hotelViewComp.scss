@@ -10,6 +10,7 @@
 .overview{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var( --Grey-dark-1 );
 
     &__heading{
         text-transform: uppercase;
